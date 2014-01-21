@@ -1,0 +1,9 @@
+{application, erpc_zmq_sup, [
+  {id, "erpc_zmq_sup"},
+  {description, "zeromq supervisor interface for erpc"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {mod, {erpc_zmq_sup_app, []}}
+]}.
